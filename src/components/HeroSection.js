@@ -5,12 +5,17 @@ import './HeroSection.css';
 
 function HeroSection() {
   return (<>
-  <div class="container">
-    <img src="/images/ca1.jpg" class="container_img" />
-</div>
- 
-      <h1>CLEAN ADDIS</h1>
+
+<div class="container-fluid bg-overlayspec">
+            <div class="centered" id="hi"> 
+            <span>
+            <h1>CLEAN ADDIS</h1>
       <p className='lets'>LET'S MAKE OUR CITY CLEAN TOGETHER</p>
+      </span></div>
+         
+        </div>
+ 
+     
       <div className='hero-btns'>
         <Button
           className='btns'

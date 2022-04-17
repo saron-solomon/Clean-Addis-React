@@ -6,10 +6,11 @@ import Footer from '../Footer';
 
 function Home() {
   return (
-    <>
+    <><div className='homeDiv'>
       <HeroSection />
       <Cards />
       <Footer />
+      </div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 
 .hero-container {
-  /* background: url('/images/ca.jpg') center center/cover no-repeat; */
+  background: url('/images/ca1.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -51,6 +51,23 @@
   width: 100%;
   object-fit: cover;
 } 
+
+
+.bg-overlayspec {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/ca1.jpg);
+  /* opacity: 1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* color: #fff; */
+  height: 450px;
+  z-index: -1;
+}
+
+
+
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
