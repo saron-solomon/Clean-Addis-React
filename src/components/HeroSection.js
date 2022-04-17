@@ -17,13 +17,13 @@ function HeroSection() {
  
      
       <div className='hero-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button>
+        </Button> */}
         <Button
           className='btns'
           buttonStyle='btn--primary'

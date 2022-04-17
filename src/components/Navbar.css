@@ -155,4 +155,12 @@
     color: #242424;
     transition: 250ms;
   }
+
+  .greenText{
+    color: green;
+  }
+
+  .whiteText{
+    color: white;
+  }
 }
