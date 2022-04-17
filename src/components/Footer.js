@@ -61,7 +61,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              CA
+            <span className='whiteText'>Clean</span><span className='greenText'>Addis</span>
             </Link>
           </div>
           <small class='website-rights'>CleanAddis © 2022</small>
