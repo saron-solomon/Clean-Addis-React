@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>A CLEAN PLACE IS A SAFE PLACE!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/ca4.jpg'
+              text=' Thats our mission to clean and green Addisababa City.'
+              
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/ca5.jpg'
+              text=' keep your city clean and green for the future generation to be seen! '
+              
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/ca8.jpg'
+              text='You have a responsibility to keep your surrounding and city clean.'
+          
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/ca11.jpg'
+              text='Give your city clean look to maintain the dreambook.'
+       
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/ca18.jpg'
+              text='A green city,dream city!'
+            
               path='/sign-up'
             />
           </ul>
